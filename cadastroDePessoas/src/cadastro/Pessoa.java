@@ -20,8 +20,47 @@ public class Pessoa {
 		
 	}
 	
+	public String getNome() {
+		return this.nome;
+	}
 	
+	public void setNome() {
+		this.nome = nome;
+
+	}
 	
+	public int getIdade() {
+		return idade;
+	}
+
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public double getTelefone() {
+		return telefone;
+	}
+
+	public void setTelefone(double telefone) {
+		this.telefone = telefone;
+	}
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
 	public Pessoa() {
 		super();
 		// TODO Auto-generated constructor stub
